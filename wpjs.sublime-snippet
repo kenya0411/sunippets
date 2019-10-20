@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/${1}.js"></script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wpjs</tabTrigger>
+	<description>.jsの呼び出し</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+
+
+	</snippet>

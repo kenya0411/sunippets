@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+height: 5px
+background-image: linear-gradient(to right, #999999, #999999 1px, transparent 1px, transparent 2px)
+background-size: 5px 1px/* この値を変更 */
+background-position: top
+background-repeat: repeat-x
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>borderdot</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+
+
+	</snippet>

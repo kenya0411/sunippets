@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+content: ''/*何も入れない*/
+display: inline-block/*忘れずに！*/
+width: ${1}px/*画像の幅*/
+height: ${2}px/*画像の高さ*/
+background-image: url(${3})
+background-size: contain
+vertical-align: middle
+background-repeat: no-repeat
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bbgi</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+
+
+	</snippet>

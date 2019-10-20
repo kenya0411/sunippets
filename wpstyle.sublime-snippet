@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<?php include( STYLESHEETPATH . '/${1}.php' ); ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wpstyle</tabTrigger>
+	<description>テンプレートファイル.phpの呼び出し</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+
+
+	</snippet>
