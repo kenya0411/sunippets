@@ -2,6 +2,8 @@
 	<content><![CDATA[
 content: ""
 border-bottom: 1px solid ${1}
+width: ${2}
+height: ${3}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bord</tabTrigger>

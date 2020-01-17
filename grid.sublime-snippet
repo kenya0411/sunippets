@@ -1,9 +1,12 @@
 <snippet>
 	<content><![CDATA[
-before
+display: grid
+grid-template-columns: ${1} //横の長さ
+grid-template-rows: ${2}//縦の長さ
+gap: ${3}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>be</tabTrigger>
+	<tabTrigger>grid</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.sass</scope>
 
