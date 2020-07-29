@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-<?php include( TEMPLATEPATH . '/${1}.php' ); ?>
+include( TEMPLATEPATH . '/${1}.php' );
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>wptemp</tabTrigger>
-	<description>テンプレートファイル.phpの呼び出し</description>
+	<tabTrigger>includetemp</tabTrigger>
+	<description> include TEMPLATEPATH.phpの呼び出し</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 

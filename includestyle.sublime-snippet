@@ -1,11 +1,12 @@
 <snippet>
 	<content><![CDATA[
-background-color: rgba(${1},${2},${3},${4});
+include( STYLESHEETPATH . '/${1}.php' );
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>bgc</tabTrigger>
+	<tabTrigger>includestyle</tabTrigger>
+	<description>include STYLESHEETPATH.phpの呼び出し</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.sass</scope>
+	<scope>text.html</scope>
 
 
 	</snippet>

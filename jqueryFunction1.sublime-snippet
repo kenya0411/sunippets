@@ -4,6 +4,7 @@
 
 });
 ]]></content>
-<tabTrigger>jquery.function</tabTrigger>
+<tabTrigger>jqueryFunction1</tabTrigger>
+<description>$(function()</description>
 <!-- <scope>source.js</scope> -->
 </snippet>

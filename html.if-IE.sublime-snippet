@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<!--[if IE]>
-
-<![endif]-->
-]]></content>
-<tabTrigger>html.if-IE</tabTrigger>
-<!-- <scope>text.html</scope> -->
-</snippet>

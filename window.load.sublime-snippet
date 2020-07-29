@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
-\$(document).ready(function (\$) {
+\$(window).on('load',function(){
+    ${1}
 });
 ]]></content>
-<tabTrigger>jquery.ready</tabTrigger>
+<tabTrigger>window.load</tabTrigger>
 <!-- <scope>source.js</scope> -->
 </snippet>

@@ -1,9 +1,7 @@
 <snippet>
 	<content><![CDATA[
 \$url = \$_SERVER["REQUEST_URI"];
-if (strstr(\$url , "${1}")==true) {
-
-}
+if (strstr(\$url , "${1}")==true) :
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ifurl</tabTrigger>
