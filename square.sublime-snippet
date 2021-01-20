@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+background-color: ${1}
+height: ${2}px
+width: ${3}px
+position: relative
+transform: rotate(-45deg)
+display: inline-block
+&:before
+	content: ""
+	border: 3px solid #fff
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	margin: auto
+	width: calc(100% - 2px)
+	height: calc(100% - 2px)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fadeinimg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+
+
+	</snippet>

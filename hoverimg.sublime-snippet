@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+&:hover
+	background-color: ${1}
+	transition-duration: 0.5s
+
+	&:before
+		content: ""
+		background-image: url(${2})
+		animation-name: fade-in
+		//animation-duration: 0.5s	
+		width: ${3}px
+		height: ${4}px
+	@keyframes fade-in
+		0%
+			opacity: 0
+		100% 
+			opacity: 1
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hoverimg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+
+
+	</snippet>
