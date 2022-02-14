@@ -1,11 +1,27 @@
 <snippet>
 	<content><![CDATA[
-color: ${1}
-background-color: ${2}
-border: 1px solid ${3}
+a,a:visited
+	\$bgcolor: ${1}
+	position: relative
+	color: #fff
+	background-color: \$bgcolor
+	border: 1px solid \$bgcolor
+	padding: ${2}
+	line-height: 1em
+	display: flex
+	justify-content: center
+	align-items: center
+	@include tabup
+		&:hover
+			background-color: #fff
+			color: \$bgcolor
+			border: 1px solid \$bgcolor
+			transition-duration: 0.5s
+
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>btnc</tabTrigger>
+	<tabTrigger>btn</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.sass</scope>
 
